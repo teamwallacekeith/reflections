@@ -1,0 +1,53 @@
+REFLECTIONS
+
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+In this case, the bug was a typo. 
+Short files are ok to just look through. Longer files can be tedious or nearly impossible to find a typo in 1000's of lines of code.
+diff is ok, but the output is quite hard to read.
+There are lots of minor changes - takes some active intelligence to discover which changes are relevant.
+
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Easily undo changes - try out new ideas without worrying about breaking existing code
+Don't have to spend ages commenting out bits and uncommenting
+Easy to view previous ideas that didn't work or you've changed
+Don't have messy old_version.txt files
+
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having
+versions automatically saved, like Google Docs does?
+
+Google Docs method seems more about not losing your work, so it is backed up regularly. This isn't the primary point of a version
+control system such as Git. Git's method is more about logical changes so you can go back to a specific point in time when things
+were working differently - useful if you've broken something.
+
+If auto-commit, how does it know if the code works at this point? Less helpful to revert back.
+
+Git version control useful for stable versions vs development versions. 
+
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because it's unlikely that several Google Docs are all interrelated. Code files are inherently related to a project with likely mulitple 
+files changed to add a feature or fix a bug. It's unlikely that several Google Docs have been changed with a common purose.
+
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+git log shows the list of commits with comments, dates and commit ID
+git diff shows the difference between two commits (enter the two id numbers eg git diff id1 id2)
+
+
+6. How might using version control make you more confident to make changes that could break something?
+
+It's easy to revert back to a version that works, so no problems experimenting with different code, as long as you have set
+your commit before playing.
+
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+BarbaraFraser website (before I got involved, then current version)
+on Windows, for Artemis project
+
