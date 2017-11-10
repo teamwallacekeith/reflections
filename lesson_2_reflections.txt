@@ -5,3 +5,10 @@ REFLECTIONS
 Git creates a .git folder holding the change information. Can decide which files to track. 
 Need to do it because it doesn't do it automatically, so you have control over which 
 directories you want to control.
+
+
+2. How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+Not 100% sure yet. It's different from the working directory as you've chosen specific files to be in there,
+the value it offers is having more control over which files are gitted.
