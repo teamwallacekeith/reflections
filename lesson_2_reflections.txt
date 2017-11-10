@@ -1,0 +1,7 @@
+REFLECTIONS
+
+1. What happens when you initialize a repository? Why do you need to do it?
+
+Git creates a .git folder holding the change information. Can decide which files to track. 
+Need to do it because it doesn't do it automatically, so you have control over which 
+directories you want to control.
