@@ -28,3 +28,13 @@ trying to fix bugs while keeping stable version
 different beta tests
 A/B testing
 
+
+5. How do the diagrams help you visualise the branch structure?
+
+Easier to see on paper than on git output.
+
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram in the way we do?
+
+Combines the changes from each of the branches into the current branch. 
+
