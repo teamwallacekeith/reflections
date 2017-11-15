@@ -1,0 +1,4 @@
+1. When would you want to use a remote repository rather than keeping all your work local?
+
+Useful for off-site backup of files. Useful if multiple collaborators, or if you want to share code with the public.
+
